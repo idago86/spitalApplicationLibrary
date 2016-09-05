@@ -13,6 +13,8 @@ public class Request implements java.io.Serializable{
     private int cod;
     public static final int REGISTER = 0;
     public static final int LOGIN = 1;
+    public static final int ADD_MEDIC = 2;
+    public static final int ADD_PACIENT = 3;
 
     public Request(int cod) {
         this.cod = cod;
